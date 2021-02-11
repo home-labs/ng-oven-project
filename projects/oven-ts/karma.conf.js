@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, '../../coverage/ng-oven'),
+      dir: require('path').join(__dirname, '../../coverage/oven-ts'),
       subdir: '.',
       reporters: [
         { type: 'html' },

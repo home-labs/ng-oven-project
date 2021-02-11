@@ -20,9 +20,8 @@
       "dom"
     ],
     "paths": {
-      "ng-oven": [
-        "dist/ng-oven/ng-oven",
-        "dist/ng-oven"
+      "@actjs.on/oven-ts": [
+        "dist/@actjs.on/oven-ts"
       ]
     }
   },

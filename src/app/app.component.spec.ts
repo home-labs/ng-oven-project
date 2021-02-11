@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ng-oven-project'`, () => {
+  it(`should have as title 'oven-ts-project'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ng-oven-project');
+    expect(app.title).toEqual('oven-ts-project');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('ng-oven-project app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('oven-ts-project app is running!');
   });
 });

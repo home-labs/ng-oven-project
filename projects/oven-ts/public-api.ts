@@ -1,1 +1,1 @@
-export * from './src/oven';
+export * from './src/index';
